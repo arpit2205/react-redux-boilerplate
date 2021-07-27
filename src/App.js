@@ -13,8 +13,8 @@ function App() {
       {logged ? (
         <>
           <h1>Counter value: {counter}</h1>
-          <button onClick={() => dispatch(increment())}>+</button>
-          <button onClick={() => dispatch(decrement())}>-</button>
+          <button onClick={() => dispatch(increment(1))}>+</button>
+          <button onClick={() => dispatch(decrement(1))}>-</button>
         </>
       ) : (
         ""
